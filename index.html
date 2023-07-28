@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,700;0,900;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet"></head>
+<!-- tailwind cdn -->
+
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- daisyui cdn -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css"/>
+<!-- font awesome cdn -->
+<script src="https://kit.fontawesome.com/e592c71ad0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="flex gap-10 m-10">
+    <div>
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="logo.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Good</h2>
+          <p>Hello How are you?</p>
+          <div class="card-actions">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <section class="">
+        <!-- Open the modal using ID.showModal() method -->
+    <button class="btn" onclick="my_modal_1.showModal()">open modal</button>
+    <dialog id="my_modal_1" class="modal">
+      <form method="dialog" class="modal-box">
+        <h3 class="font-bold text-lg"><div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Good</h2>
+            <p>Hell how are you</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        
+     
+        <div class="modal-action">
+          <!-- if there is a button in form, it will close the modal -->
+          <button class="btn">Close</button>
+        </div>
+      </form>
+    </dialog>
+    
+    </div>
+    
+    
+    <div>
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="logo.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Good</h2>
+          <p>Hello How are you?</p>
+          <div class="card-actions">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <section class="">
+        <!-- Open the modal using ID.showModal() method -->
+      <button class="btn" onclick="my_modal_1.showModal()">open modal</button>
+      <dialog id="my_modal_2" class="modal">
+      <form method="dialog" class="modal-box">
+        <h3 class="font-bold text-lg"><div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Good</h2>
+            <p>Hell how are you</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        
+      
+        <div class="modal-action">
+          <!-- if there is a button in form, it will close the modal -->
+          <button class="btn">Close</button>
+        </div>
+      </form>
+      </dialog>
+      
+    </div>
+    
+
+
+  </div>
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+    
+</body>
+</html>
